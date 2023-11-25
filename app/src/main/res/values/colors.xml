@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!--主色调-->
+    <color name="primary">#d6271c</color>
+    <color name="primary30">#a92e29</color>
+
+    <!--主色调，亮一点，主要用在主色调checkbox，默认选中时-->
+    <color name="primary50">#c92e29</color>
+    <color name="primary60">#4c85a7</color>
+
+    <!--主色调，暗一点按钮颜色，主要用来在用户详情，发送消息等按钮文本颜色-->
+    <color name="primary_button">#569c94</color>
+
+    <!--链接颜色，例如：聊天界面，可以点击的消息内容高亮颜色-->
+    <color name="link">@color/primary_button</color>
+
+    <!--item点击高亮颜色-->
+    <color name="super_click_background">#ffd5d5d5</color>
+
+    <!--文本颜色-->
+    <color name="super_text">#ff161616</color>
+
+    <!--灰色，例如：设置item右侧图标，右侧更多文本颜色-->
+    <color name="super_light_grey">#ff888888</color>
+
+    <!--region toast背景-->
+    <!--默认toast背景颜色-->
+    <color name="super_toast_background">#ff313131</color>
+
+    <!--错误toast背景颜色-->
+    <color name="super_toast_error_background">#ffdd0000</color>
+
+    <!--正确toast背景颜色-->
+    <color name="super_toast_success_background">#ff0ab855</color>
+
+    <!--endregion-->
+    <color name="super_black40">#ff2b2b2b</color>
+
+    <!--黑色到白色；颜色命令也有很大的问题，关于颜色命名方式讨论：https://www.zhihu.com/question/301985702 以下命名后面的数字，没有实际意思-->
+
+    <!--检索提示-->
+    <color name="black">#ff000000</color>
+    <color name="black_transparent_88">#88000000</color>
+    <color name="button_transparent_88">#88000000</color>
+    <color name="black15">#ff111111</color>
+    <color name="black17">#ff151515</color>
+    <color name="black20">#ff161616</color>
+    <color name="black25">#ff191919</color>
+    <color name="black30">#ff111111</color>
+    <color name="black31">#ff1b1b1b</color>
+    <color name="black311">#ff1e1e1e</color>
+    <color name="black312">#ff202020</color>
+    <color name="black32">#ff242424</color>
+    <color name="black33">#ff292929</color>
+    <color name="black34">#ff272727</color>
+    <color name="black322">#ff212121</color>
+    <color name="black40">#ff292929</color>
+
+    <!--透明颜色-->
+    <color name="transparent">@android:color/transparent</color>
 </resources>
